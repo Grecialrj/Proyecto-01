@@ -1,0 +1,785 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+div {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+
+}
+
+div:hover {
+    color: gray;
+}
+
+.barra-inicio {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    justify-content: end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 895px;
+    font-size: 13.5px;
+}
+
+.inicio-left {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13.5px;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.inicio-right {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13.5px;
+    text-align: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-netflix {
+    width: 95px;
+    height: 32px;
+}
+
+.logo-buscador {
+    width: 28px;
+    height: 28px;
+}
+
+.logo-novedades {
+    width: 27px;
+    height: 27px;
+}
+
+.logo-perfil {
+    width: 58px;
+    height: 36px;
+}
+
+.imagen-inicio {
+    display: flex;
+    position: relative;
+}
+
+.texto-imagen-inicio {
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 1px white;
+    text-align: left;
+}
+
+.buttons-container {
+    position: absolute;
+    display: flex;
+    top: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button1 {
+    color: black;
+    border: 1px solid white;
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: white;
+    align-items: center;
+}
+
+.button2 {
+    color: white;
+    margin-left: 75px;
+    width: 230px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgba(73, 73, 73, 0.8);
+    align-items: center;
+}
+
+.button3 {
+    color: white;
+    margin-left: 1175px;
+    width: 170px;
+    height: 40px;
+    font-size: 22px;
+    background-color: rgba(73, 73, 73, 0.4);
+    align-items: center;
+}
+
+.volver-a-verlo {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-volver-a-verlo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6.5px;
+    margin-left: 50px;
+}
+
+.tendencias {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-tendencias {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.populares {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-populares {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.buscados {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-buscados {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.critica {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-critica {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.aventura {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-aventura {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.emocionantes {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-emocionantes {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.dramaticas {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-dramaticas {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.premiadas {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-premiadas {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.premiadas {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-premiadas {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.lanzamientos {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-lanzamientos {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.documentales {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-documentales {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.aclamadas {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-aclamadas {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.sci-fi {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-sci-fi {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.animacion {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-animacion {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.top-pelis {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.images-top-pelis {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.comedia {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-comedia {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.animes {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-animes {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.seleccion {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-seleccion {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.taquilleras {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-taquilleras {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.maraton {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-maraton {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.suspenso {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-suspenso {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.risa {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-risa {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.terror {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-terror {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.familia {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-familia {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.español {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-español {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.crimenes {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-crimenes {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.netflix {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-netflix {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.emotivas {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-emotivas {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.romance {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-romance {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.ultimo-año {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    display: flex;
+    text-align: left;
+    margin-top: 70px;
+    margin-bottom: 12px;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 20px;
+}
+
+.images-ultimo-año {
+    display: flex;
+    justify-content: flex-start;
+    gap: 7px;
+    margin-left: 50px;
+}
+
+.barras-inferiores {
+    display: block;
+    color: rgb(177, 177, 177);
+    font-size: 11px;
+    text-align: left;
+    align-items: center; 
+    margin-left: 450px;  
+}
+
+.redes {
+    margin-top: 120px;
+}
+
+.barra {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.servicio-button {
+    color: rgb(177, 177, 177);
+    font-size: 11px;
+    margin-top: 30px;
+    margin-left: 450px; 
+    width: 105px;
+    height: 15px;
+    margin-bottom: 10px;
+    border: solid white 1px;
+}
+
+.copyright {
+    color: rgb(177, 177, 177);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    margin-top: 20px;
+    margin-left: 450px; 
+    width: 130px;
+    height: 15px;
+    margin-bottom: 10px;
+}
